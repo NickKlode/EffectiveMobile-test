@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	httpserver "emobletest/internal/http-server"
+	"emobletest/internal/lib/logger"
 	"emobletest/internal/storage/postgres"
-	"emobletest/lib/logger"
 	"fmt"
 	"net/http"
 	"os"

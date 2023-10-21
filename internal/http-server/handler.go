@@ -2,8 +2,8 @@ package httpserver
 
 import (
 	"emobletest/internal/http-server/response"
+	"emobletest/internal/lib/logger"
 	"emobletest/internal/storage/model"
-	"emobletest/lib/logger"
 	"net/http"
 	"strconv"
 

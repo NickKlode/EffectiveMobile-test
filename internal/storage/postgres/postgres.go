@@ -2,8 +2,8 @@ package postgres
 
 import (
 	"context"
+	"emobletest/internal/lib/api"
 	"emobletest/internal/storage/model"
-	"emobletest/lib/api"
 	"fmt"
 	"strings"
 
